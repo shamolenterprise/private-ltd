@@ -1,0 +1,61 @@
+@media screen and (min-width: 600px){
+    .portfolio{
+        visibility: visible;
+    }
+    .nav-bar{
+        left: 200px;
+    }
+    .my-img{
+        left: 150px;
+    }
+}
+@media screen and (min-width: 950px){
+    .portfolio{
+        visibility: visible;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .nav-bar{
+        flex-direction: row;
+        visibility: visible;
+        position: unset;
+        margin-top: 8px;
+    }
+    .anchore{
+        margin-top: 20px;
+    }
+    .naim-sheikh{
+        font-size: 30px;
+        margin-left: 180px;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    .naim-islam{
+        /* font-size: 30px; */
+        margin-right: 180px;
+        margin-left: 20px;
+    }
+    .and{
+        font-size: 35px;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    .student{
+        font-size: 30px;
+        margin-right: 100px;
+        margin-left: 20px;
+    }
+    .eight{
+        font-size: 30px;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+    .myself{
+        margin-left: 280px;
+    }
+    .anchore:hover{
+        color: cadetblue;
+        border-bottom: 1px solid white;
+    }
+}
